@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.errorbody {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.notfound {
+    position: absolute;
+
+    max-width: 410px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notfound h2 {
+    font-family: montserrat, sans-serif;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px;
+
+}
+
+.notfound p {
+    font-family: montserrat, sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+
+.notfound .btn {
+
+    width: 300px;
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+    padding: 18px 25px;
+    border-radius: 6px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    height: fit-content;
+    color: #ff014f;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.notfound .btn:hover {
+    background: #ff014f;
+    color: white;
+}
+
+.notfound .btn:hover a {
+
+    color: white;
+}
+
+.notfound404 {
+    height: 280px;
+    position: relative;
+    z-index: -1;
+}
+
+.notfound404 h1 {
+    font-family: montserrat, sans-serif;
+    font-size: 230px;
+    margin: 0;
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../public/bg.jpg) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width:1000px) {
+    .notfound {
+        transform: scale(0.7);
+    }
+}
+@media screen and (max-width:600px) {
+    .notfound {
+        transform: scale(0.5);
+    }
+}
+
+@media screen and (max-width:430px) {
+    .notfound {
+            transform: scale(0.35);
+    }
+
+}
