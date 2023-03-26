@@ -32,6 +32,8 @@
     transition: 0.5s;
 }
 
+
+
 .btn_shadow {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
@@ -96,10 +98,40 @@
     color: #ff014f;
 }
 
+@media screen and (max-width: 1190px) {
+   
+.btn_shadow {
+        padding: 10px 17px;
+       
+    }
+    
+}
+@media screen and (max-width: 1190px) {
+
+    .btn_shadow {
+        padding: 5px 10px;
+
+    }
+  
+
+}
+
+@media screen and (max-width: 850px) {
+    .top {
+            margin-top: 30px;
+        }
+}
+
+
+
 
 
 /*----------Footer---------*/
 @media (max-width: 768px) {
+    .btn_shadow {
+            padding: 18px 25px;
+    
+        }
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -108,4 +140,24 @@
     .right {
         width: 100%;
     }
+}
+
+
+@media screen and (max-width: 410px) {
+
+    .btn_shadow {
+        padding:12px 17px;
+
+    }
+
+
+}
+@media screen and (max-width: 320px) {
+
+    .btn_shadow {
+        padding: 5px 10px;
+
+    }
+
+
 }

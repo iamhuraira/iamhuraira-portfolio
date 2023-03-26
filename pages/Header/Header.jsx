@@ -8,8 +8,11 @@ import Gstyle from "../../styles/globalStyle.module.css"
 
 import { IoCloseSharp } from "react-icons/io5"
 import { HiMenu } from "react-icons/hi"
+import { useRouter } from "next/router"
 
 const Header = () => {
+
+    const router = useRouter()
     // fixed Header
     
     // window.addEventListener("scroll", function () {
@@ -18,12 +21,16 @@ const Header = () => {
     // })
     // Toogle Menu
     const [Mobile, setMobile] = useState(false)
+    const handleNavigate = (a) => { 
+        // console.log(a)
+        router.push(a)
+    }
     return (
         <>
             <header className={style.header}>
                 <div className={`${Gstyle.container} ${Gstyle.dflex}`}>
                     <div className={style.logo}>
-                        <a href="#home">
+                        <a onClick={()=>handleNavigate("/")}>
                           <Image src={logo}/>  </a>
                     </div>
 
@@ -52,7 +59,7 @@ const Header = () => {
                                 <a href='#contact'>contact</a>
                             </li>
                             <li>
-                                <button className={style.homebtn}><a href="#home">Hire Me</a></button>
+                                <button className={style.homebtn}><a href="https://www.upwork.com" target='_blank'>Hire Me</a></button>
                             </li>
                         </ul>
 

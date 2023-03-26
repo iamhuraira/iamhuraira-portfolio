@@ -36,6 +36,9 @@ button {
   outline: none;
   background-color: none;
 }
+svg {
+  font-size: 2rem;
+}
 
 
 h1 {

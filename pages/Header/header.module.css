@@ -41,11 +41,14 @@
 .header ul li a:hover {
     color: #ff014f;
 }
+.header ul li:last-child a:hover {
+    /* color: white; */
+}
 
 .homebtn {
     padding: 18px 25px;
     border-radius: 6px;
-    transition: 0.3s all ease;
+    /* transition: 0.3s all ease; */
     cursor: pointer;
     height: fit-content;
     color: #ff014f;
@@ -63,8 +66,9 @@
 
 .homebtn:hover a {
 
-    color: white;
+    color: white !important;
 }
+
 
 .open {
     display: none;
