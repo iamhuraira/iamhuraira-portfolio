@@ -1,3 +1,4 @@
+/* eslint no-use-before-define: 0 */
 import React, { useEffect } from 'react'
 import style from '../styles/404.module.css'
 import { useRouter } from 'next/router'

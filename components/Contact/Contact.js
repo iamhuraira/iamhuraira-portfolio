@@ -7,6 +7,7 @@ import style from "./Contact.module.css";
 import Gstyle from "../../styles/globalStyle.module.css"
 import Hstyle from "../../styles/Home.module.css"
 import info from "./info"
+import Image from "next/image"
 
 const Contact = () => {
   const url = {
@@ -56,7 +57,7 @@ const Contact = () => {
             <div className={style.left}>
               <div className={`${style.box} ${Gstyle.box_shodow}`}>
                 <div className={`${style.img}`}>
-                  <img src='contact1.png' alt='' />
+                  <Image src='/contact1.png' alt='contact' width={1000} height={1000}  />
                 </div>
                 <div className={style.details}>
                   <h1>{info.name}</h1>

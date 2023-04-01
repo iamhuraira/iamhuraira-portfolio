@@ -9,10 +9,14 @@
 .Contact .box {
   padding: 30px;
 }
-
+.Contact .img{
+  width: 100%;
+  height: 100%;
+}
 .Contact .img img {
   border-radius: 10px;
   width: 100%;
+  height: 100%;
 }
 
 .Contact .details h1 {
