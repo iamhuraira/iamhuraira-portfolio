@@ -31,7 +31,7 @@ const Header = () => {
                 <div className={`${Gstyle.container} ${Gstyle.dflex}`}>
                     <div className={style.logo}>
                         <a onClick={()=>handleNavigate("/")}>
-                          <Image src={logo}/>  </a>
+                          <Image src={logo} alt="logo"/>  </a>
                     </div>
 
                     <div className={style.navlink}>

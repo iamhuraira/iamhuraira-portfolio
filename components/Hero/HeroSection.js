@@ -23,7 +23,7 @@ const HeroSection = () => {
     linkedin: "https://www.linkedin.com",
     instagram: "https://www.instagram.com"
   }
-  
+  const desc = "As a skilled MERN stack developer, I specialize in designing and building efficient, scalable web applications using MongoDB, Express.js, React, and Node.js. With experience in working with diverse front-end and back-end technologies, I'm dedicated to delivering high-quality results and contributing to any development team"
 
   return (
     <>
@@ -41,7 +41,7 @@ const HeroSection = () => {
               </span>
             </h2>
 
-            <p>As a skilled MERN stack developer, I specialize in designing and building efficient, scalable web applications using MongoDB, Express.js, React, and Node.js. With experience in working with diverse front-end and back-end technologies, I'm dedicated to delivering high-quality results and contributing to any development team</p>
+            <p>{desc}</p>
 
             <div className={`${style.hero_btn} ${Gstyle.dflex}`}>
               <div className={`${style.col_1} ${style.colorSocial}`}>

@@ -1,21 +1,21 @@
 const data = [
   {
     id: 1,
-    image: "coding.png",
+    image: "/coding.png",
     title: "Full Stack Web Development",
     desc: "I specialize in building full-stack web applications using the MERN stack (MongoDB, Express.js, React, and Node.js) and Next.Js. From designing and developing user interfaces to building and integrating back-end systems, I can create custom web solutions tailored to your specific needs.",
     link: 'https://www.upwork.com',
   },
   {
     id: 2,
-    image: "css.png",
+    image: "/css.png",
     title: "Front-End Development ",
     desc: " I have expertise in front-end development using Next.Js, React, HTML, CSS, and JavaScript to create efficient and performant web applications. I can also help you integrate your front-end with back-end systems and APIs to create a seamless user experience.",
     link: 'https://www.upwork.com',
   },
   {
     id: 3,
-    image: "api.png",
+    image: "/api.png",
     title: "API Development and Integration",
     desc: "I have experience developing APIs using Node.js, Express.js, and Nest.Js  to enable seamless integration with third-party services and data sources. I can also help you integrate popular APIs like Google Maps, Stripe, and Twilio to enhance the functionality of your web application.",
     link: 'https://www.upwork.com',
