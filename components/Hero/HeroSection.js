@@ -41,7 +41,7 @@ const HeroSection = () => {
               </span>
             </h2>
 
-            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+            <p>As a skilled MERN stack developer, I specialize in designing and building efficient, scalable web applications using MongoDB, Express.js, React, and Node.js. With experience in working with diverse front-end and back-end technologies, I'm dedicated to delivering high-quality results and contributing to any development team</p>
 
             <div className={`${style.hero_btn} ${Gstyle.dflex}`}>
               <div className={`${style.col_1} ${style.colorSocial}`}>
@@ -51,10 +51,10 @@ const HeroSection = () => {
                     <a href={url.upwork} target='_blank'><SiUpwork /></a>
                   </button>
                   <button className={Gstyle.btn_shadow}>
-                    <a href={url.linkedin}><AiFillLinkedin/></a>
+                    <a href={url.linkedin} target='_blank'><AiFillLinkedin/></a>
                   </button>
                   <button className={Gstyle.btn_shadow}>
-                    <a href={url.instagram}><BsInstagram/></a>
+                    <a href={url.instagram} target='_blank'><BsInstagram/></a>
                   </button>
                 </div>
               </div>

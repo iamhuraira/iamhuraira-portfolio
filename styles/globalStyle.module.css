@@ -90,12 +90,21 @@
 
 
 
-.text-center {
+.textcenter {
     text-align: center;
 }
 
 .primary_color {
     color: #ff014f;
+}
+
+@media screen and (max-width: 1222px) {
+
+    .top {
+       margin-top: 40px;
+
+    }
+
 }
 
 @media screen and (max-width: 1190px) {
@@ -139,6 +148,12 @@
     .left,
     .right {
         width: 100%;
+    }
+}
+
+@media (max-width: 660px) {
+    .grid {
+        grid-template-columns: 1fr;
     }
 }
 
